@@ -156,45 +156,6 @@ MYPASSWORD@123     ❌ (no lowercase)
 
 ---
 
-## 🔄 User Flow
-
-### Registration Flow
-```
-1. User clicks "Sign Up" on LandingPage
-2. AuthPage opens in register mode
-3. User enters username and password
-4. Frontend validates password strength in real-time
-5. User confirms password (must match)
-6. User clicks "Create Account"
-7. Form validates locally
-8. Submits to POST /register endpoint
-9. Backend validates strength again
-10. Backend creates user with hashed password
-11. Success message shown
-12. Form resets
-13. Tab switches to Login mode
-14. User can now login
-```
-
-### Login Flow
-```
-1. User clicks "Login" on LandingPage
-2. AuthPage opens in login mode
-3. User enters username and password
-4. User clicks "Sign In"
-5. Frontend submits to POST /login endpoint
-6. Backend verifies credentials
-7. If valid: Returns success response
-   → Shows "Successfully Sign In" popup
-   → User clicks "Continue"
-   → Modal closes
-   → Redirects to landing page
-8. If invalid: Shows "Invalid Username or Password"
-   → User can retry
-```
-
----
-
 ## ❌ Important Notes
 
 ### Other Frontend Screens Are Placeholders
