@@ -177,11 +177,3 @@ python backup_db.py
 | pgAdmin4 | http://localhost:5050 |
 
 ---
-
-## Summary: Quick Restore Steps
-1. Open pgAdmin4 (http://localhost:5050)
-2. Right-click "wharfintel" database → "Restore"
-3. Select your backup file from `C:\Users\Administrator\Documents\wharfintel_backups\`
-4. Click "Restore" and wait for completion
-5. Done! ✅
-
